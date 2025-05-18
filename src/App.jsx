@@ -13,9 +13,7 @@ function App() {
 
   return (
     <>
-  {/* <UserManagement/> */}
-   {/* <ProductsTable/> */}
- {/* <BrandsCategories/>  */}
+
       <Routes>
         <Route path="/" element={<DashboardLayout />}>
           <Route index element={<DashboardHome />} />
