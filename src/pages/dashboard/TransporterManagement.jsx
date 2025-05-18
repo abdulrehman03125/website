@@ -1,5 +1,5 @@
 
-import TransportersHeader from './TransportersHeader.JSX';
+import TransportersHeader from './TransportersHeader.jsx';
 
 const TransporterManagement = () => {
 
