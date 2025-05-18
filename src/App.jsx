@@ -1,8 +1,8 @@
-import { useState } from 'react'
+
 import './App.css'
 import { Routes, Route } from 'react-router-dom'
 import DashboardLayout from "./pages/DashboardLayout"
-import DashboardHome from './pages/Dashboardhome';
+import DashboardHome from './pages/DashboardHome';
 import UserManagement from './pages/dashboard/UserManagement';
 import ProductsTable from './pages/dashboard/ProductsTable';
 import BrandsCategories from './pages/dashboard/BrandsCategories';
