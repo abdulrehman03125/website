@@ -1,4 +1,8 @@
-const TransportersHeader = () => (
+import React from 'react'
+
+const TransportersHeader = () => {
+  return (
+   
   <div className="p-4 bg-white rounded-lg shadow-sm">
     <div className="flex justify-between mb-6">
       <h1 className="text-2xl font-semibold text-gray-800">Transporters</h1>
@@ -62,3 +66,6 @@ const TransportersHeader = () => (
     </div>
   </div>
 );
+}
+
+export default TransportersHeader;
